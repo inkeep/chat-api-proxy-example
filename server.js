@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 // Environment Variables
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 const API_SERVICE_URL = process.env.API_SERVICE_URL;
 
 // Proxy Server Options
