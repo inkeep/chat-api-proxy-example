@@ -11,4 +11,4 @@ docker build -t my-proxy-app .
 To run your proxy application in a Docker container, use the following command:
 
 ```bash
-docker run -p 3000:3000 my-proxy-app
+docker run -p 3668:3668 my-proxy-app
