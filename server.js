@@ -22,7 +22,7 @@ const options = {
    onProxyReq: (proxyReq, req, res) => {
       // Set a new authorization header for the outgoing request to the API
       proxyReq.setHeader("Authorization", `Bearer ${process.env.INKEEP_API_KEY}`);
-   },
+   }
 };
 
 const proxy = httpProxy.createProxyServer(options);
